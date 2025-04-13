@@ -8,3 +8,40 @@ body {
     font-family: 'Nunito', 'DIN Next Rounded', sans-serif;
 
 }
+header {
+    width: 100%;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+
+.lang {
+    background-color: #6afa02;
+    position: fixed;
+}
+
+
+.site-lang {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+    background: linear-gradient(140deg, #fafafc, #f8f8f9);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Nunito', 'DIN Next Rounded', sans-serif;
+}
+.site-lang:hover {
+    transform: translateY(-2px);
+
+}
+
