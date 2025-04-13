@@ -102,5 +102,28 @@ nav {
     background-color:aliceblue;
     transform: translateY(-2px);
 }
+.list {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+li {
+    color:gray;
+    font-size: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.flag {
+    height: 40px;
+    width: 40px;
+}
+
+
+
 
 
