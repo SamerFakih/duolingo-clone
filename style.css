@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 70px;
+    font-family: 'Nunito', 'DIN Next Rounded', sans-serif;
+
+}
+
+header {
+    width: 100%;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+
+.lang {
+    background-color: #6afa02;
+    position: fixed;
+}
+
+
+.site-lang {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+    background: linear-gradient(140deg, #fafafc, #f8f8f9);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Nunito', 'DIN Next Rounded', sans-serif;
+}
+
+.site-lang:hover {
+    transform: translateY(-2px);
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    margin: 10%;
+}
+
+.duolingo-img {
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.title {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Nunito', 'DIN Next Rounded', sans-serif;
+}
+
+.get {
+    padding: 14px 32px;
+    background-color: #67e903;
+    color: #f8f8f9;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-family: 'Nunito', 'DIN Next Rounded', sans-serif;
+}
+
+.start:hover {
+    background-color: #6afa02;
+    transform: translateY(-2px);
+}
+
+.already-have-account {
+    color: rgb(3, 200, 255);
+    background-color: #f8f8f9;
+}
+
+.already-have-account:hover {
+    background-color:aliceblue;
+    transform: translateY(-2px);
+}
+
+.list {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+li {
+    color:gray;
+    font-size: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.flag {
+    height: 40px;
+    width: 40px;
+}
+
+
+
